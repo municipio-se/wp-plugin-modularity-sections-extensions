@@ -12,7 +12,7 @@ compatible additions a minor release and compatible fixes a patch release.
 
 ## Compatibility and acceptance
 
-The current integration target is WordPress 6.9.4, PHP 8.3 and the bundled
+The current integration target is WordPress 6.9.7, PHP 8.3 and the bundled
 Modularity in Municipio theme 6.43.2, with modularity-sections 4.0.4. This is a
 test target, not a claim that candidate reference acceptance has passed.
 Preserve any earlier verified contracts described in README. Sections also
