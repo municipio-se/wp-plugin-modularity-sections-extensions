@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Modularity Sections Extensions
  * Description: Adds focused Sections editor behavior to modern Municipio.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Requires PHP: 8.2
  * Author: Whitespace
  * License: MIT

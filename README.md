@@ -21,13 +21,17 @@ outside this release.
 
 ## Installation
 
+Release candidates, verification, publication and rollback are documented in
+[RELEASING.md](RELEASING.md). See [CHANGELOG.md](CHANGELOG.md) for version
+history.
+
 Install `municipio/wp-plugin-modularity-sections-extensions` with Composer.
 Composer Installers places it in
 `wp-content/plugins/modularity-sections-extensions` through
 `extra.installer-name`.
 
-The plugin supports modern Municipio only. The initial compatibility contract
-is verified against `helsingborg-stad/municipio` 6.43.2 and
+The plugin supports modern Municipio only. The initial compatibility contract is
+verified against `helsingborg-stad/municipio` 6.43.2 and
 `helsingborg-stad/modularity-sections` 4.0.4.
 
 ## Data and deactivation
@@ -35,9 +39,9 @@ is verified against `helsingborg-stad/municipio` 6.43.2 and
 No activation or write migration runs. Raw Section metadata remains untouched in
 the database.
 
-The plugin is a permanent dependency while editors need the LTS WYSIWYG
-controls and formatting. Deactivation returns the fields to their upstream
-definitions without modifying stored metadata.
+The plugin is a permanent dependency while editors need the LTS WYSIWYG controls
+and formatting. Deactivation returns the fields to their upstream definitions
+without modifying stored metadata.
 
 ## Extension points
 
